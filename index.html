@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="webcam.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body onload="startWebcam()">
+        <video autoplay="true" id="webcam"></video><br>
+        <button onclick="takePicture()"><img class="buttonWebcam" src="img/takePicture.png"></button>
+        <button onclick="rotateCamera()"><img class="buttonWebcam" src="img/rotate.png"></button><br>
+        <div id="pictures"></div>
+    </body>
+</html>

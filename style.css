@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+#webcam {
+    max-width: 100%;
+}
+
+.buttonWebcam {
+    width: 50px;
+}
+
+.picture {
+    width: 200px;
+}
+
+.pictureRealSize {
+    max-width: 100%;
+}
+
+.buttonPicture {
+    height: 10px;
+}
